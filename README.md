@@ -4,7 +4,7 @@
 
 ---
 
-The data analysis project aims to take the raw data a step further to identify facts from the figures. 
+The aim was to make the raw data more useful by taking a dive into the cleaned data. This provided insights and identify facts such as the employee layoffs by country, month and year. The total number layoffs per company, the stage of the company at the time of laying off employees, identify trends etc.  
 
 
 ### Data source 
