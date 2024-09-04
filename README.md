@@ -11,7 +11,7 @@ The aim was to make the raw data more useful by taking a dive into the cleaned d
 ---
 Employee layoffs: The primary data used for this analysis is the layoffs.data_csv file, containing detailed information about layoffs made by companies. 
 
-### Research quesions
+### Research questions
 ---
 - What is the overall trend of layoffs worldworld over the 3 years?
 - How do layoffs vary across different companies and industries?
