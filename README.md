@@ -20,5 +20,7 @@ Employee layoffs: The primary data used for this analysis is the layoffs.data_cs
   
 ### Tools
 ---
+- Microsoft office
+    - [Download here](https://www.microsoft.com/en-us/microsoft-365/microsoft-office)
 - MYSQL data analysis software
     - [Download here](https://MYSQL.com)
