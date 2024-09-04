@@ -13,9 +13,9 @@ Employee layoffs: The primary data used for this analysis is the layoffs.data_cs
 
 ### Research questions
 ---
-- What is the overall trend of layoffs worldworld over the 3 years?
+- What ae the trends observed over in employee layoffs over the years?
 - How do layoffs vary across different companies and industries?
-- Which are the top companies, e.g. top 5 in each year with the highest layoffs?
+- Which are the top 5 companies each year with the highest layoffs?
 - Are there any patterns in employee layoffs?
   
 ### Tools
