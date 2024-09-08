@@ -4,7 +4,7 @@
 
 ---
 
-The aim was to make the raw data more useful by taking a dive into the cleaned data. This provided insights and identified facts such as the employee layoffs by country, month and year. The total number layoffs per company, the stage of the company at the time of laying off employees, identifying trends etc.  
+The aim of this project was to make the raw data more useful by taking a dive into the cleaned data. This provided insights and identified facts such as the employee layoffs by country, month and year. The total number layoffs per company, the stage of the company at the time of laying off employees, identifying trends etc.  
 
 
 ### Data source 
