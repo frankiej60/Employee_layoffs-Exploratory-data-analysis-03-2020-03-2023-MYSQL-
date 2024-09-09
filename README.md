@@ -16,6 +16,7 @@ Employee layoffs: The primary data used for this analysis is the layoffs.data_cs
 - What are the trends observed over the years in employee layoffs?
 - How do layoffs vary across different companies and industries?
 - Which are the top 5 companies each year with the highest layoffs?
+- Are there any patterns in employee layoffs?
 
 
 Outcomes from the EDA
@@ -32,6 +33,7 @@ Outcomes from the EDA
 
 ![image](https://github.com/user-attachments/assets/944edd15-98e1-4d36-bc91-bf9321482e16)
 
+- In 2022, Carvana and Phillips tied at number 5 with and in 2023 Amazon and Salesforce tied at number 4 with .
   
 ### Tools
 ---
