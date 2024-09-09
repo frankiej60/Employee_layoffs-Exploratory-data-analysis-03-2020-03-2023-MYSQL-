@@ -17,6 +17,11 @@ Employee layoffs: The primary data used for this analysis is the layoffs.data_cs
 - How do layoffs vary across different companies and industries?
 - Which are the top 5 companies each year with the highest layoffs?
 - Are there any patterns in employee layoffs?
+
+Outcomes from the EDA
+---
+- The number of total layoffs in 2020 is 80998, this drops in 2021 to 15,823, then spikes to 160,522 in 2022. It then declines again in 2023 to 125477. Hence, 2022 has the highest number of layoffs in comparison to other years.
+- United States has the highest layoffs with 256,420 and Poland with the lowest with just 25 layoffs. The company with the highest layoffs is Google with 120,000 (2023) and the lowest is Branch with 3 layoffs in 2020
   
 ### Tools
 ---
