@@ -38,9 +38,9 @@ from layoffs_stages2
 group by date
 order by 1 desc;
 
-select year('date'), sum(total_laid_off)
+select year(date) as year , sum(total_laid_off) as total_laid_off
 from layoffs_stages2
-group by year('date')
+group by year(date)
 order by 1 desc;
 
 select stage,sum(total_laid_off)
@@ -48,34 +48,34 @@ from layoffs_stages2
 group by stage
 order by 2 desc;
 
-select substring('date', 1,7) as 'Month', sum(total_laid_off)
+select substring(date, 1,7) as Month, sum(total_laid_off)
 from layoffs_stages2
-where substring('date', 1,7) is not null
-group by 'Month'
+where substring(date, 1,7) is not null
+group by Month
 order by 1 asc;
 
 with rolling_total as
 (
-select substring('date', 1,7) as 'Month', (total_laid_off) as total_off
+select substring(date, 1,7) as Month, (total_laid_off) as total_off
 from layoffs_stages2
-where substring('date', 1,7) is not null
-group by 'Month'
+where substring(date, 1,7) is not null
+group by Month
 order by 1 asc
 )
-select 'Month', total_laid_off,
-sum(total_off) over(order by 'Month') as rolling_total
+select Month, total_laid_off,
+sum(total_off) over(order by Month) as rolling_total
 from rolling_total;
 
-select company, year('date'), sum(total_laid_off)
+select company, year(date), sum(total_laid_off)
 from layoffs_stages2
-group by company, year('date')
+group by company, year(date)
 order by 3 desc;
 
 WITH company_year (company, years, total_laid_off) as 
 (
-  select company, year('date'), sum(total_laid_off)
+  select company, year(date), sum(total_laid_off)
   from layoffs_stages2
-  group by company, year('date')
+  group by company, year(date)
 ), 
 company_year_rank as 
 (
