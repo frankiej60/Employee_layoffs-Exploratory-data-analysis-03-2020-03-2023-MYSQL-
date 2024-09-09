@@ -20,7 +20,7 @@ from layoffs_stages2
 group by company
 order by 2 desc;
 
-select min('date'), max('date')
+select min(date), max(date)
 from layoffs_stages;
 
 select industry, sum(total_laid_off)
@@ -33,7 +33,7 @@ from layoffs_stages2
 group by country
 order by 2 desc;
 
-select 'date',sum(total_laid_off)
+select date,sum(total_laid_off)
 from layoffs_stages2
 group by date
 order by 1 desc;
