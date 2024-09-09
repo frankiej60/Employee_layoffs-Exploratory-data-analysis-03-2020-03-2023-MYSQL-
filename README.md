@@ -33,7 +33,7 @@ Outcomes from the EDA
 
 ![image](https://github.com/user-attachments/assets/944edd15-98e1-4d36-bc91-bf9321482e16)
 
-- In 2022, Carvana and Phillips tied at number 5 with and in 2023 Amazon and Salesforce tied at number 4 with .
+- In 2022, Carvana and Phillips tied at number 5 with 4,000 layoffs and in 2023 Amazon and Salesforce tied at number 4 with 8,000 layoffs.
   
 ### Tools
 ---
