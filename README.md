@@ -1,4 +1,4 @@
-# Employee_layoffs-Exploratory-data-analysis-MYSQL-
+# Workforce_layoffs-Exploratory-data-analysis-MYSQL-
 
 ### Project brief
 
